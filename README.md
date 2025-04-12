@@ -28,9 +28,10 @@ We support and test for Python versions 3.7 and higher on Linux. We recommend in
 - create and activate a conda virtual environment:
 ```bash
  conda create -n gymprecice python=3.8
+ source ~/anaconda3/bin/activate
  conda activate gymprecice
 ```
-
+source ~/anaconda3/bin/activate is used for virtual env in WSL
 
 #### PIP version
 - install the adapter:

@@ -38,6 +38,10 @@ We support and test for Python versions 3.7 and higher on Linux. We recommend in
 ```bash
 python3 -m pip install gymprecice
 ```
+workaround after error 
+```bash
+python3 -m pip install --user "pyprecice<3.2.0"
+```
 - run a simple test to check `gymprecice` installation (this should pass silently without any error/warning messages):
 ```bash
 python3 -c "import gymprecice"
